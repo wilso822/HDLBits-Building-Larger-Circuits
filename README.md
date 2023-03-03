@@ -20,5 +20,3 @@ At that point, the circuit must assert done to notify the user the timer has tim
 The circuit should reset into a state where it begins searching for the input sequence 1101.
 
 Here is an example of the expected inputs and outputs. The 'x' states may be slightly confusing to read. They indicate that the FSM should not care about that particular input signal in that cycle. For example, once the 1101 and delay[3:0] have been read, the circuit no longer looks at the data input until it resumes searching after everything else is done. In this example, the circuit counts for 2000 clock cycles because the delay[3:0] value was 4'b0001. The last few cycles starts another count with delay[3:0] = 4'b1110, which will count for 15000 cycles."
-
-![wavedrom](https://user-images.githubusercontent.com/46980468/222604177-654f356f-9fda-4b0d-9f0d-b8cbd4629ac8.svg)
