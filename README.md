@@ -7,4 +7,4 @@ This is the Mealey Model used for the tim_fsm.v
 fancy_timer.v was the fifth and final excercise and was made according to this:
 https://hdlbits.01xz.net/wiki/Exams/review2015_fancytimer
 
-it used slightly modified versions of shift_count.v, tim_fsm.v, and count_1k.v
+It used slightly modified versions of shift_count.v, tim_fsm.v, and count_1k.v, then connected all of them to get this unique fancy timer.
